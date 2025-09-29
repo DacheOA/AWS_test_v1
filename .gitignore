@@ -1,0 +1,32 @@
+*.swp
+package-lock.json
+__pycache__
+.pytest_cache
+.venv
+*.egg-info
+
+# CDK asset staging directory
+.cdk.staging
+cdk.out
+
+# .gitignore
+
+# Entornos virtuales
+venv/
+.env
+
+# Dependencias instaladas
+**/__pycache__/
+**/*.pyc
+
+# Dependencias de Python
+# (Si usas virtualenv o venv)
+.env/
+.venv/
+
+# Configuración de AWS CDK (opcional)
+cdk.out/
+
+# Otros archivos de sistema
+.DS_Store
+*.log
